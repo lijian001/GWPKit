@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7D9EB11C5D009800D5D683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EB01C5D009800D5D683 /* main.m */; };
+		4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EB31C5D009800D5D683 /* AppDelegate.m */; };
+		4D7D9EBC1C5D009800D5D683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9EBB1C5D009800D5D683 /* Assets.xcassets */; };
+		4D7D9EBF1C5D009800D5D683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9EBD1C5D009800D5D683 /* LaunchScreen.storyboard */; };
+		4D7D9ECA1C5D009800D5D683 /* GWPKitDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EC91C5D009800D5D683 /* GWPKitDEMOTests.m */; };
+		4D7D9ED51C5D009800D5D683 /* GWPKitDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9ED41C5D009800D5D683 /* GWPKitDEMOUITests.m */; };
+		4D7D9F001C5D078500D5D683 /* GWPGIFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EFA1C5D078500D5D683 /* GWPGIFView.m */; };
+		4D7D9F011C5D078500D5D683 /* UIImage+GWPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EFD1C5D078500D5D683 /* UIImage+GWPKit.m */; };
+		4D7D9F021C5D078500D5D683 /* UIView+GWPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EFF1C5D078500D5D683 /* UIView+GWPKit.m */; };
+		4D7D9F051C5D07FA00D5D683 /* GWPSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F041C5D07FA00D5D683 /* GWPSliderController.m */; };
+		4D7D9F101C5D089F00D5D683 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F081C5D089F00D5D683 /* ALView+PureLayout.m */; };
+		4D7D9F111C5D089F00D5D683 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F0A1C5D089F00D5D683 /* NSArray+PureLayout.m */; };
+		4D7D9F121C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F0C1C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.m */; };
+		4D7D9F1A1C5D0AE400D5D683 /* GWPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F191C5D0AE400D5D683 /* GWPHomeViewController.m */; };
+		4D7D9F1E1C5D0AF400D5D683 /* GWPLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F1C1C5D0AF400D5D683 /* GWPLeftViewController.m */; };
+		4D7D9F1F1C5D0AF400D5D683 /* GWPLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9F1D1C5D0AF400D5D683 /* GWPLeftViewController.xib */; };
+		4D7D9F231C5D0B0200D5D683 /* GWPRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F211C5D0B0200D5D683 /* GWPRightViewController.m */; };
+		4D7D9F241C5D0B0200D5D683 /* GWPRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9F221C5D0B0200D5D683 /* GWPRightViewController.xib */; };
+		4D7D9F281C5D0B2000D5D683 /* GWPCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F261C5D0B2000D5D683 /* GWPCenterViewController.m */; };
+		4D7D9F291C5D0B2000D5D683 /* GWPCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9F271C5D0B2000D5D683 /* GWPCenterViewController.xib */; };
+		4D7D9F2C1C5D0BCF00D5D683 /* GWPBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9F2B1C5D0BCF00D5D683 /* GWPBaseCellModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7D9EC61C5D009800D5D683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7D9EA41C5D009800D5D683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7D9EAB1C5D009800D5D683;
+			remoteInfo = GWPKitDEMO;
+		};
+		4D7D9ED11C5D009800D5D683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7D9EA41C5D009800D5D683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7D9EAB1C5D009800D5D683;
+			remoteInfo = GWPKitDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7D9EAC1C5D009800D5D683 /* GWPKitDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWPKitDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D9EB01C5D009800D5D683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D7D9EB21C5D009800D5D683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D7D9EB31C5D009800D5D683 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D7D9EBB1C5D009800D5D683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D7D9EBE1C5D009800D5D683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D7D9EC01C5D009800D5D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7D9EC51C5D009800D5D683 /* GWPKitDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWPKitDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D9EC91C5D009800D5D683 /* GWPKitDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWPKitDEMOTests.m; sourceTree = "<group>"; };
+		4D7D9ECB1C5D009800D5D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7D9ED01C5D009800D5D683 /* GWPKitDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWPKitDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D9ED41C5D009800D5D683 /* GWPKitDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWPKitDEMOUITests.m; sourceTree = "<group>"; };
+		4D7D9ED61C5D009800D5D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7D9EF41C5D03D600D5D683 /* GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPKit.h; sourceTree = "<group>"; };
+		4D7D9EF91C5D078500D5D683 /* GWPGIFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPGIFView.h; sourceTree = "<group>"; };
+		4D7D9EFA1C5D078500D5D683 /* GWPGIFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPGIFView.m; sourceTree = "<group>"; };
+		4D7D9EFB1C5D078500D5D683 /* GWPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPLog.h; sourceTree = "<group>"; };
+		4D7D9EFC1C5D078500D5D683 /* UIImage+GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GWPKit.h"; sourceTree = "<group>"; };
+		4D7D9EFD1C5D078500D5D683 /* UIImage+GWPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GWPKit.m"; sourceTree = "<group>"; };
+		4D7D9EFE1C5D078500D5D683 /* UIView+GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GWPKit.h"; sourceTree = "<group>"; };
+		4D7D9EFF1C5D078500D5D683 /* UIView+GWPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GWPKit.m"; sourceTree = "<group>"; };
+		4D7D9F031C5D07FA00D5D683 /* GWPSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSliderController.h; sourceTree = "<group>"; };
+		4D7D9F041C5D07FA00D5D683 /* GWPSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPSliderController.m; sourceTree = "<group>"; };
+		4D7D9F071C5D089F00D5D683 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		4D7D9F081C5D089F00D5D683 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		4D7D9F091C5D089F00D5D683 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		4D7D9F0A1C5D089F00D5D683 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		4D7D9F0B1C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		4D7D9F0C1C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		4D7D9F0D1C5D089F00D5D683 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		4D7D9F0E1C5D089F00D5D683 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		4D7D9F0F1C5D089F00D5D683 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		4D7D9F181C5D0AE400D5D683 /* GWPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPHomeViewController.h; sourceTree = "<group>"; };
+		4D7D9F191C5D0AE400D5D683 /* GWPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPHomeViewController.m; sourceTree = "<group>"; };
+		4D7D9F1B1C5D0AF400D5D683 /* GWPLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPLeftViewController.h; sourceTree = "<group>"; };
+		4D7D9F1C1C5D0AF400D5D683 /* GWPLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPLeftViewController.m; sourceTree = "<group>"; };
+		4D7D9F1D1C5D0AF400D5D683 /* GWPLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPLeftViewController.xib; sourceTree = "<group>"; };
+		4D7D9F201C5D0B0200D5D683 /* GWPRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPRightViewController.h; sourceTree = "<group>"; };
+		4D7D9F211C5D0B0200D5D683 /* GWPRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPRightViewController.m; sourceTree = "<group>"; };
+		4D7D9F221C5D0B0200D5D683 /* GWPRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPRightViewController.xib; sourceTree = "<group>"; };
+		4D7D9F251C5D0B2000D5D683 /* GWPCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCenterViewController.h; sourceTree = "<group>"; };
+		4D7D9F261C5D0B2000D5D683 /* GWPCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPCenterViewController.m; sourceTree = "<group>"; };
+		4D7D9F271C5D0B2000D5D683 /* GWPCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPCenterViewController.xib; sourceTree = "<group>"; };
+		4D7D9F2A1C5D0BCF00D5D683 /* GWPBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPBaseCellModel.h; sourceTree = "<group>"; };
+		4D7D9F2B1C5D0BCF00D5D683 /* GWPBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPBaseCellModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7D9EA91C5D009800D5D683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D9EC21C5D009800D5D683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D9ECD1C5D009800D5D683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7D9EA31C5D009800D5D683 = {
+			isa = PBXGroup;
+			children = (
+				4D7D9EAE1C5D009800D5D683 /* GWPKitDEMO */,
+				4D7D9EC81C5D009800D5D683 /* GWPKitDEMOTests */,
+				4D7D9ED31C5D009800D5D683 /* GWPKitDEMOUITests */,
+				4D7D9EAD1C5D009800D5D683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7D9EAD1C5D009800D5D683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9EAC1C5D009800D5D683 /* GWPKitDEMO.app */,
+				4D7D9EC51C5D009800D5D683 /* GWPKitDEMOTests.xctest */,
+				4D7D9ED01C5D009800D5D683 /* GWPKitDEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7D9EAE1C5D009800D5D683 /* GWPKitDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9EE21C5D017E00D5D683 /* GWPKit */,
+				4D7D9EB21C5D009800D5D683 /* AppDelegate.h */,
+				4D7D9EB31C5D009800D5D683 /* AppDelegate.m */,
+				4D7D9F181C5D0AE400D5D683 /* GWPHomeViewController.h */,
+				4D7D9F191C5D0AE400D5D683 /* GWPHomeViewController.m */,
+				4D7D9F1B1C5D0AF400D5D683 /* GWPLeftViewController.h */,
+				4D7D9F1C1C5D0AF400D5D683 /* GWPLeftViewController.m */,
+				4D7D9F1D1C5D0AF400D5D683 /* GWPLeftViewController.xib */,
+				4D7D9F201C5D0B0200D5D683 /* GWPRightViewController.h */,
+				4D7D9F211C5D0B0200D5D683 /* GWPRightViewController.m */,
+				4D7D9F221C5D0B0200D5D683 /* GWPRightViewController.xib */,
+				4D7D9F251C5D0B2000D5D683 /* GWPCenterViewController.h */,
+				4D7D9F261C5D0B2000D5D683 /* GWPCenterViewController.m */,
+				4D7D9F271C5D0B2000D5D683 /* GWPCenterViewController.xib */,
+				4D7D9EBB1C5D009800D5D683 /* Assets.xcassets */,
+				4D7D9EBD1C5D009800D5D683 /* LaunchScreen.storyboard */,
+				4D7D9EC01C5D009800D5D683 /* Info.plist */,
+				4D7D9F061C5D089F00D5D683 /* PureLayout */,
+				4D7D9EAF1C5D009800D5D683 /* Supporting Files */,
+			);
+			path = GWPKitDEMO;
+			sourceTree = "<group>";
+		};
+		4D7D9EAF1C5D009800D5D683 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9EB01C5D009800D5D683 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7D9EC81C5D009800D5D683 /* GWPKitDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9EC91C5D009800D5D683 /* GWPKitDEMOTests.m */,
+				4D7D9ECB1C5D009800D5D683 /* Info.plist */,
+			);
+			path = GWPKitDEMOTests;
+			sourceTree = "<group>";
+		};
+		4D7D9ED31C5D009800D5D683 /* GWPKitDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9ED41C5D009800D5D683 /* GWPKitDEMOUITests.m */,
+				4D7D9ED61C5D009800D5D683 /* Info.plist */,
+			);
+			path = GWPKitDEMOUITests;
+			sourceTree = "<group>";
+		};
+		4D7D9EE21C5D017E00D5D683 /* GWPKit */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9F031C5D07FA00D5D683 /* GWPSliderController.h */,
+				4D7D9F041C5D07FA00D5D683 /* GWPSliderController.m */,
+				4D7D9EF91C5D078500D5D683 /* GWPGIFView.h */,
+				4D7D9EFA1C5D078500D5D683 /* GWPGIFView.m */,
+				4D7D9EFB1C5D078500D5D683 /* GWPLog.h */,
+				4D7D9EFC1C5D078500D5D683 /* UIImage+GWPKit.h */,
+				4D7D9EFD1C5D078500D5D683 /* UIImage+GWPKit.m */,
+				4D7D9EFE1C5D078500D5D683 /* UIView+GWPKit.h */,
+				4D7D9EFF1C5D078500D5D683 /* UIView+GWPKit.m */,
+				4D7D9EF41C5D03D600D5D683 /* GWPKit.h */,
+				4D7D9F2A1C5D0BCF00D5D683 /* GWPBaseCellModel.h */,
+				4D7D9F2B1C5D0BCF00D5D683 /* GWPBaseCellModel.m */,
+			);
+			name = GWPKit;
+			path = ../../GWPKit;
+			sourceTree = "<group>";
+		};
+		4D7D9F061C5D089F00D5D683 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D9F071C5D089F00D5D683 /* ALView+PureLayout.h */,
+				4D7D9F081C5D089F00D5D683 /* ALView+PureLayout.m */,
+				4D7D9F091C5D089F00D5D683 /* NSArray+PureLayout.h */,
+				4D7D9F0A1C5D089F00D5D683 /* NSArray+PureLayout.m */,
+				4D7D9F0B1C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.h */,
+				4D7D9F0C1C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.m */,
+				4D7D9F0D1C5D089F00D5D683 /* PureLayout+Internal.h */,
+				4D7D9F0E1C5D089F00D5D683 /* PureLayout.h */,
+				4D7D9F0F1C5D089F00D5D683 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7D9EAB1C5D009800D5D683 /* GWPKitDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D9ED91C5D009800D5D683 /* Build configuration list for PBXNativeTarget "GWPKitDEMO" */;
+			buildPhases = (
+				4D7D9EA81C5D009800D5D683 /* Sources */,
+				4D7D9EA91C5D009800D5D683 /* Frameworks */,
+				4D7D9EAA1C5D009800D5D683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWPKitDEMO;
+			productName = GWPKitDEMO;
+			productReference = 4D7D9EAC1C5D009800D5D683 /* GWPKitDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7D9EC41C5D009800D5D683 /* GWPKitDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D9EDC1C5D009800D5D683 /* Build configuration list for PBXNativeTarget "GWPKitDEMOTests" */;
+			buildPhases = (
+				4D7D9EC11C5D009800D5D683 /* Sources */,
+				4D7D9EC21C5D009800D5D683 /* Frameworks */,
+				4D7D9EC31C5D009800D5D683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7D9EC71C5D009800D5D683 /* PBXTargetDependency */,
+			);
+			name = GWPKitDEMOTests;
+			productName = GWPKitDEMOTests;
+			productReference = 4D7D9EC51C5D009800D5D683 /* GWPKitDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D7D9ECF1C5D009800D5D683 /* GWPKitDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D9EDF1C5D009800D5D683 /* Build configuration list for PBXNativeTarget "GWPKitDEMOUITests" */;
+			buildPhases = (
+				4D7D9ECC1C5D009800D5D683 /* Sources */,
+				4D7D9ECD1C5D009800D5D683 /* Frameworks */,
+				4D7D9ECE1C5D009800D5D683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7D9ED21C5D009800D5D683 /* PBXTargetDependency */,
+			);
+			name = GWPKitDEMOUITests;
+			productName = GWPKitDEMOUITests;
+			productReference = 4D7D9ED01C5D009800D5D683 /* GWPKitDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7D9EA41C5D009800D5D683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GWP;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GanWenPeng;
+				TargetAttributes = {
+					4D7D9EAB1C5D009800D5D683 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4D7D9EC41C5D009800D5D683 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D7D9EAB1C5D009800D5D683;
+					};
+					4D7D9ECF1C5D009800D5D683 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D7D9EAB1C5D009800D5D683;
+					};
+				};
+			};
+			buildConfigurationList = 4D7D9EA71C5D009800D5D683 /* Build configuration list for PBXProject "GWPKitDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7D9EA31C5D009800D5D683;
+			productRefGroup = 4D7D9EAD1C5D009800D5D683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7D9EAB1C5D009800D5D683 /* GWPKitDEMO */,
+				4D7D9EC41C5D009800D5D683 /* GWPKitDEMOTests */,
+				4D7D9ECF1C5D009800D5D683 /* GWPKitDEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7D9EAA1C5D009800D5D683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D9EBF1C5D009800D5D683 /* LaunchScreen.storyboard in Resources */,
+				4D7D9F291C5D0B2000D5D683 /* GWPCenterViewController.xib in Resources */,
+				4D7D9F1F1C5D0AF400D5D683 /* GWPLeftViewController.xib in Resources */,
+				4D7D9F241C5D0B0200D5D683 /* GWPRightViewController.xib in Resources */,
+				4D7D9EBC1C5D009800D5D683 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D9EC31C5D009800D5D683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D9ECE1C5D009800D5D683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7D9EA81C5D009800D5D683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D9F121C5D089F00D5D683 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				4D7D9F051C5D07FA00D5D683 /* GWPSliderController.m in Sources */,
+				4D7D9F281C5D0B2000D5D683 /* GWPCenterViewController.m in Sources */,
+				4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */,
+				4D7D9F101C5D089F00D5D683 /* ALView+PureLayout.m in Sources */,
+				4D7D9F1A1C5D0AE400D5D683 /* GWPHomeViewController.m in Sources */,
+				4D7D9F1E1C5D0AF400D5D683 /* GWPLeftViewController.m in Sources */,
+				4D7D9F021C5D078500D5D683 /* UIView+GWPKit.m in Sources */,
+				4D7D9F011C5D078500D5D683 /* UIImage+GWPKit.m in Sources */,
+				4D7D9F001C5D078500D5D683 /* GWPGIFView.m in Sources */,
+				4D7D9F111C5D089F00D5D683 /* NSArray+PureLayout.m in Sources */,
+				4D7D9F231C5D0B0200D5D683 /* GWPRightViewController.m in Sources */,
+				4D7D9EB11C5D009800D5D683 /* main.m in Sources */,
+				4D7D9F2C1C5D0BCF00D5D683 /* GWPBaseCellModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D9EC11C5D009800D5D683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D9ECA1C5D009800D5D683 /* GWPKitDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D9ECC1C5D009800D5D683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D9ED51C5D009800D5D683 /* GWPKitDEMOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7D9EC71C5D009800D5D683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7D9EAB1C5D009800D5D683 /* GWPKitDEMO */;
+			targetProxy = 4D7D9EC61C5D009800D5D683 /* PBXContainerItemProxy */;
+		};
+		4D7D9ED21C5D009800D5D683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7D9EAB1C5D009800D5D683 /* GWPKitDEMO */;
+			targetProxy = 4D7D9ED11C5D009800D5D683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D7D9EBD1C5D009800D5D683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7D9EBE1C5D009800D5D683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D7D9ED71C5D009800D5D683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D7D9ED81C5D009800D5D683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7D9EDA1C5D009800D5D683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D7D9EDB1C5D009800D5D683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D7D9EDD1C5D009800D5D683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWPKitDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWPKitDEMO.app/GWPKitDEMO";
+			};
+			name = Debug;
+		};
+		4D7D9EDE1C5D009800D5D683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GWPKitDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWPKitDEMO.app/GWPKitDEMO";
+			};
+			name = Release;
+		};
+		4D7D9EE01C5D009800D5D683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWPKitDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWPKitDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D7D9EE11C5D009800D5D683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GWPKitDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GWPKitDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7D9EA71C5D009800D5D683 /* Build configuration list for PBXProject "GWPKitDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D9ED71C5D009800D5D683 /* Debug */,
+				4D7D9ED81C5D009800D5D683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7D9ED91C5D009800D5D683 /* Build configuration list for PBXNativeTarget "GWPKitDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D9EDA1C5D009800D5D683 /* Debug */,
+				4D7D9EDB1C5D009800D5D683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D7D9EDC1C5D009800D5D683 /* Build configuration list for PBXNativeTarget "GWPKitDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D9EDD1C5D009800D5D683 /* Debug */,
+				4D7D9EDE1C5D009800D5D683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D7D9EDF1C5D009800D5D683 /* Build configuration list for PBXNativeTarget "GWPKitDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D9EE01C5D009800D5D683 /* Debug */,
+				4D7D9EE11C5D009800D5D683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7D9EA41C5D009800D5D683 /* Project object */;
+}
