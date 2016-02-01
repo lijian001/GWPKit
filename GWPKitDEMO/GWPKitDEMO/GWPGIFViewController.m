@@ -7,6 +7,7 @@
 //
 
 #import "GWPGIFViewController.h"
+#import "GWPCommonTool.h"
 
 @interface GWPGIFViewController ()
 

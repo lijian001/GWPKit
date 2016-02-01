@@ -8,6 +8,7 @@
 
 #import "GWPGIFView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "GWPLog.h"
 
 @implementation GWPGIFView
 
