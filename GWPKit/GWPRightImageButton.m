@@ -7,6 +7,7 @@
 //
 
 #import "GWPRightImageButton.h"
+#import "UIView+GWPKit.h"
 
 @implementation GWPRightImageButton
 - (void)layoutSubviews{

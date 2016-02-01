@@ -7,6 +7,7 @@
 //
 
 #import "GWPCenterViewController.h"
+#import "GWPCommonTool.h"
 
 @interface GWPCenterViewController ()
 - (IBAction)showLeftClick;

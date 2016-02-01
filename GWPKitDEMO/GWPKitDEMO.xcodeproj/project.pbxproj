@@ -107,7 +107,6 @@
 		4DA7B6701C5E07A00047AB7E /* GWPCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCommonTool.h; sourceTree = "<group>"; };
 		4DA7B6711C5E07A00047AB7E /* GWPCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPCommonTool.m; sourceTree = "<group>"; };
 		4DA7B6731C5E081E0047AB7E /* GWPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSingleton.h; sourceTree = "<group>"; };
-		4DA7B6741C5E26B10047AB7E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4DA7B6751C5E3AD40047AB7E /* reSubmit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = reSubmit.gif; sourceTree = "<group>"; };
 		4DA7B67D1C5E3D330047AB7E /* GWPGIFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPGIFViewController.h; sourceTree = "<group>"; };
 		4DA7B67E1C5E3D330047AB7E /* GWPGIFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPGIFViewController.m; sourceTree = "<group>"; };
@@ -203,7 +202,6 @@
 				4D7D9EBD1C5D009800D5D683 /* LaunchScreen.storyboard */,
 				4D7D9EC01C5D009800D5D683 /* Info.plist */,
 				4D7D9EB01C5D009800D5D683 /* main.m */,
-				4DA7B6741C5E26B10047AB7E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -613,7 +611,7 @@
 			baseConfigurationReference = 2D9CEC2B72753BAB622EE035 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = $SRCROOT/GWPKitDEMO/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMO;
@@ -626,7 +624,7 @@
 			baseConfigurationReference = E45982F75B0C3767EC748703 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = $SRCROOT/GWPKitDEMO/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMO;

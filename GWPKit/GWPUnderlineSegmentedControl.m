@@ -8,6 +8,7 @@
 
 #import "GWPUnderlineSegmentedControl.h"
 #import "UIView+GWPKit.h"
+#import "GWPLog.h"
 
 @interface GWPUnderlineSegmentedControl ()
 
