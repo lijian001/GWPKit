@@ -9,6 +9,8 @@
 #import "GWPCenterViewController.h"
 
 @interface GWPCenterViewController ()
+- (IBAction)showLeftClick;
+- (IBAction)showRightClick;
 
 @end
 
@@ -16,22 +18,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    [self setup];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setup {
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"off"] style:UIBarButtonItemStyleDone target:self action:@selector(cancelClick)];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)cancelClick{
+    [[GWPCommonTool sharedGWPCommonTool].sliderVc dismissViewControllerAnimated:YES completion:nil];
 }
-*/
 
+- (IBAction)showLeftClick {
+    [[GWPCommonTool sharedGWPCommonTool].sliderVc showLeft];
+}
+
+- (IBAction)showRightClick {
+    [[GWPCommonTool sharedGWPCommonTool].sliderVc showRight];
+}
 @end

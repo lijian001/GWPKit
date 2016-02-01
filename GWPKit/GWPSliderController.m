@@ -7,7 +7,7 @@
 //
 
 #import "GWPSliderController.h"
-#import "PureLayout.h"
+//#import "PureLayout.h"
 #import "UIView+GWPKit.h"
 
 static CGFloat const timeLength = 0.3;
@@ -34,6 +34,9 @@ static CGFloat const timeLength = 0.3;
     NSAssert(centerVc, @"使用 %@ 时，centerVc不得为空",[centerVc class]);
     
     GWPSliderController *sliderVc = [[GWPSliderController alloc] init];
+    sliderVc.centerVc = centerVc;
+    sliderVc.leftVc = leftVc;
+    sliderVc.rightVc = rightVc;
     sliderVc.type = type;
     NSMutableDictionary *views = [NSMutableDictionary dictionary];
     views[@"center"] = centerVc.view;
@@ -46,16 +49,22 @@ static CGFloat const timeLength = 0.3;
         [sliderVc.view addSubview:centerVc.view];
         centerVc.view.translatesAutoresizingMaskIntoConstraints = NO;
         
-//        [centerVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
-        [centerVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[centerV]-0-|" options:0 metrics:nil views:views]];
+        [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[center]-0-|" options:0 metrics:nil views:views]];
+        [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[center]-0-|" options:0 metrics:nil views:views]];
         
         
         if (leftVc) {
             sliderVc.leftVc = leftVc;
             [sliderVc addChildViewController:leftVc];
             [sliderVc.view addSubview:leftVc.view];
-            [leftVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeRight];
-            sliderVc.leftWidthC = [leftVc.view autoSetDimension:ALDimensionWidth toSize:(sliderVc.leftWidth ? sliderVc.leftWidth : 100)];
+            leftVc.view.translatesAutoresizingMaskIntoConstraints = NO;
+            
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[left]-0-|" options:0 metrics:nil views:views]];
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[left]" options:0 metrics:nil views:views]];
+            
+            CGFloat width = sliderVc.leftWidth ? sliderVc.leftWidth : 100;
+            sliderVc.leftWidthC = [NSLayoutConstraint constraintWithItem:leftVc.view attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:width];
+            [sliderVc.view addConstraint:sliderVc.leftWidthC];
             leftVc.view.hidden = YES;
         }
         
@@ -63,8 +72,17 @@ static CGFloat const timeLength = 0.3;
             sliderVc.rightVc = rightVc;
             [sliderVc addChildViewController:rightVc];
             [sliderVc.view addSubview:rightVc.view];
-            [rightVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeLeft];
-            sliderVc.rightWidthC = [rightVc.view autoSetDimension:ALDimensionWidth toSize:(sliderVc.rightWidth ? sliderVc.rightWidth : 100)];
+            rightVc.view.translatesAutoresizingMaskIntoConstraints = NO;
+            
+            
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[right]-0-|" options:0 metrics:nil views:views]];
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[right]-0-|" options:0 metrics:nil views:views]];
+            
+            
+            CGFloat width = sliderVc.rightWidth ? sliderVc.rightWidth : 100;
+            sliderVc.rightWidthC = [NSLayoutConstraint constraintWithItem:rightVc.view attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:width];
+            [sliderVc.view addConstraint:sliderVc.rightWidthC];
+            
             rightVc.view.hidden = YES;
         }
     } else if (type==SliderType2) {
@@ -73,8 +91,16 @@ static CGFloat const timeLength = 0.3;
             sliderVc.leftVc = leftVc;
             [sliderVc addChildViewController:leftVc];
             [sliderVc.view addSubview:leftVc.view];
-            [leftVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeRight];
-            sliderVc.leftWidthC = [leftVc.view autoSetDimension:ALDimensionWidth toSize:(sliderVc.leftWidth ? sliderVc.leftWidth : 100)];
+            
+            leftVc.view.translatesAutoresizingMaskIntoConstraints = NO;
+            
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[left]-0-|" options:0 metrics:nil views:views]];
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[left]" options:0 metrics:nil views:views]];
+            
+            CGFloat width = sliderVc.leftWidth ? sliderVc.leftWidth : 100;
+            sliderVc.leftWidthC = [NSLayoutConstraint constraintWithItem:leftVc.view attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:width];
+            [sliderVc.view addConstraint:sliderVc.leftWidthC];
+            
             leftVc.view.hidden = YES;
         }
         
@@ -82,15 +108,29 @@ static CGFloat const timeLength = 0.3;
             sliderVc.rightVc = rightVc;
             [sliderVc addChildViewController:rightVc];
             [sliderVc.view addSubview:rightVc.view];
-            [rightVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeLeft];
-            sliderVc.rightWidthC = [rightVc.view autoSetDimension:ALDimensionWidth toSize:(sliderVc.rightWidth ? sliderVc.rightWidth : 100)];
+
+            rightVc.view.translatesAutoresizingMaskIntoConstraints = NO;
+            
+            
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[right]-0-|" options:0 metrics:nil views:views]];
+            [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[right]-0-|" options:0 metrics:nil views:views]];
+            
+            
+            CGFloat width = sliderVc.rightWidth ? sliderVc.rightWidth : 100;
+            sliderVc.rightWidthC = [NSLayoutConstraint constraintWithItem:rightVc.view attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:width];
+            [sliderVc.view addConstraint:sliderVc.rightWidthC];
+            
             rightVc.view.hidden = YES;
+            
         }
         
         sliderVc.centerVc = centerVc;
+        centerVc.view.translatesAutoresizingMaskIntoConstraints = NO;
         [sliderVc addChildViewController:centerVc];
         [sliderVc.view addSubview:centerVc.view];
-        [centerVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
+        [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[center]-0-|" options:0 metrics:nil views:views]];
+        [sliderVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[center]-0-|" options:0 metrics:nil views:views]];
+//        [centerVc.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
         
     }
     
@@ -106,8 +146,10 @@ static CGFloat const timeLength = 0.3;
     [recognizer setDirection:(UISwipeGestureRecognizerDirectionLeft)];
     [cover addGestureRecognizer:recognizer];
     [centerVc.view addSubview:cover];
-    [cover autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
-    
+//    [cover autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
+    cover.translatesAutoresizingMaskIntoConstraints = NO;
+    [centerVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[cover]-0-|" options:0 metrics:nil views:@{@"cover" : cover}]];
+    [centerVc.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[cover]-0-|" options:0 metrics:nil views:@{@"cover" : cover}]];
     sliderVc.cover = cover;
     
     return sliderVc;
@@ -207,9 +249,10 @@ static CGFloat const timeLength = 0.3;
     __weak typeof(self) weakSelf = self;
     
     if (_type==SliderType1) {
-        _rightVc.view.x = -_rightWidthC.constant;
+//        _rightVc.view.x = -_rightWidthC.constant;
+        _rightVc.view.x = _centerVc.view.width;
         [UIView animateWithDuration:(_transformTime ? _transformTime : timeLength) animations:^{
-            weakSelf.rightVc.view.x = 0;
+            weakSelf.rightVc.view.x = _centerVc.view.width - _rightWidthC.constant;
             weakSelf.cover.alpha = 0.2;
         } completion:^(BOOL finished) {
         }];
@@ -233,7 +276,7 @@ static CGFloat const timeLength = 0.3;
     if (_type==SliderType1) {
         [UIView animateWithDuration:(_transformTime ? _transformTime : timeLength) animations:^{
             weakSelf.leftVc.view.x = -weakSelf.leftWidthC.constant;
-            weakSelf.rightVc.view.x = -weakSelf.rightWidthC.constant;
+            weakSelf.rightVc.view.x = _centerVc.view.width;
             weakSelf.cover.alpha = 0;
         } completion:^(BOOL finished) {
             weakSelf.is_rightShow = NO;

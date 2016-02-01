@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GWPCenterViewController">
@@ -13,7 +15,39 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CenterVc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiW-5p-YOZ">
+                    <rect key="frame" x="264" y="290" width="71" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzq-oT-VXL">
+                    <rect key="frame" x="0.0" y="240" width="150" height="30"/>
+                    <state key="normal" title="Show Left"/>
+                    <connections>
+                        <action selector="showLeftClick" destination="-1" eventType="touchUpInside" id="xDo-ya-XVX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kba-Ec-AiE">
+                    <rect key="frame" x="450" y="240" width="150" height="30"/>
+                    <state key="normal" title="Show Right"/>
+                    <connections>
+                        <action selector="showRightClick" destination="-1" eventType="touchUpInside" id="1aX-S8-cTd"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LiW-5p-YOZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="05S-eT-eIl"/>
+                <constraint firstItem="kzq-oT-VXL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Iv-dC-zQG"/>
+                <constraint firstItem="LiW-5p-YOZ" firstAttribute="top" secondItem="kzq-oT-VXL" secondAttribute="bottom" constant="20" id="CfF-5O-WOx"/>
+                <constraint firstItem="LiW-5p-YOZ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="FT8-qf-JB0"/>
+                <constraint firstItem="kba-Ec-AiE" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.25" id="H32-Ow-5Ui"/>
+                <constraint firstAttribute="trailing" secondItem="kba-Ec-AiE" secondAttribute="trailing" id="h32-c5-loG"/>
+                <constraint firstItem="kba-Ec-AiE" firstAttribute="bottom" secondItem="kzq-oT-VXL" secondAttribute="bottom" id="xwC-4l-Hla"/>
+                <constraint firstItem="kzq-oT-VXL" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.25" id="y4A-rf-iqP"/>
+            </constraints>
         </view>
     </objects>
 </document>

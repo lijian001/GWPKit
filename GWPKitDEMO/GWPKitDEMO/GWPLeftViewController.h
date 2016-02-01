@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GWPCenterViewController.h"
 
 @interface GWPLeftViewController : UIViewController
-
+@property (nonatomic, strong) GWPCenterViewController *centerVc;
 @end

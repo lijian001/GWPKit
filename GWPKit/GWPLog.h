@@ -17,7 +17,7 @@
     GWPLog(@"x:%f,y:%f,w:%f,h:%f",rect.origin.x,rect.origin.y,rect.size.width,rect.size.height);
 
 #define LogSize(size) \
-    GWPLog(%@"w:%@,h:%@",size.width,size.height);
+    GWPLog(@"w:%f,h:%f",(size).width,(size).height);
 
 #define LogPoint(point) \
     GWPLog(@"x:%f,y:%f",point.x,point.y);

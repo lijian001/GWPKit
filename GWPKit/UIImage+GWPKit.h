@@ -9,6 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (GWPKit)
+/**
+ *  将图片缩小至指定宽度
+ *
+ *  @param sourceImage 原图片
+ *  @param defineWidth 目标图片宽度
+ *
+ *  @return 缩小后的图片
+ */
 + (UIImage *) imageCompressForWidth:(UIImage *)sourceImage targetWidth:(CGFloat)defineWidth;
 /**
  *  由颜色值生成图片
