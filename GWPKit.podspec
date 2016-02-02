@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GWPKit"
-  s.version      = "1.0.0"
-  s.summary      = "一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge"
+  s.version      = "1.0.2"
+  s.summary      = "一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge、判断设备屏幕的种类、封装MBProgressHUD"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge
+			这是一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge、判断设备屏幕的种类、封装MBProgressHUD
                    DESC
   
   s.homepage     = "https://github.com/GanWenPeng/GWPKit.git"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/GanWenPeng/GWPKit.git", :commit => "bff45ff" }
+  s.source       = { :git => "https://github.com/GanWenPeng/GWPKit.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation", "CoreGraphics"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -127,12 +127,11 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
+   # where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  s.requires_ = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-
+  s.dependency "MBProgressHUD", "~> 0.9.2"
 end

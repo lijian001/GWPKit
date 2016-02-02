@@ -47,5 +47,11 @@
 /** 右侧图片按钮 */
 #import "GWPRightImageButton.h"
 
+/** HUD */
+#import "MBProgressHUD+GWPExtension.h"
+
+/** 判断设备类型 */
+#import "GWPDeviceModel.h"
+
 
 #endif /* GWPKit_h */

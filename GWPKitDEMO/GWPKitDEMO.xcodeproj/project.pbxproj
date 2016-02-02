@@ -34,8 +34,9 @@
 		4D9BC34F1C5EEA21002C8271 /* GWPNoHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BC34E1C5EEA21002C8271 /* GWPNoHighlightButton.m */; };
 		4D9BC3521C5EEB87002C8271 /* GWPRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BC3511C5EEB87002C8271 /* GWPRightImageButton.m */; };
 		4D9BC35A1C5EFAAB002C8271 /* GWPDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BC3591C5EFAAB002C8271 /* GWPDisplayViewController.m */; };
-		4D9BC36C1C5F06CD002C8271 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BC35B1C5F06CD002C8271 /* MBProgressHUD.bundle */; };
-		4D9BC36D1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BC35D1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.m */; };
+		4D9BE73F1C60A88F00291D1D /* GWPDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BE73B1C60A88F00291D1D /* GWPDeviceModel.m */; };
+		4D9BE7401C60A88F00291D1D /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BE73C1C60A88F00291D1D /* MBProgressHUD.bundle */; };
+		4D9BE7411C60A88F00291D1D /* MBProgressHUD+GWPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BE73E1C60A88F00291D1D /* MBProgressHUD+GWPExtension.m */; };
 		4DA7B6721C5E07A00047AB7E /* GWPCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7B6711C5E07A00047AB7E /* GWPCommonTool.m */; };
 		4DA7B6761C5E3AD40047AB7E /* reSubmit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DA7B6751C5E3AD40047AB7E /* reSubmit.gif */; };
 		4DA7B67F1C5E3D330047AB7E /* GWPGIFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7B67E1C5E3D330047AB7E /* GWPGIFViewController.m */; };
@@ -115,9 +116,11 @@
 		4D9BC3511C5EEB87002C8271 /* GWPRightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPRightImageButton.m; sourceTree = "<group>"; };
 		4D9BC3581C5EFAAB002C8271 /* GWPDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPDisplayViewController.h; sourceTree = "<group>"; };
 		4D9BC3591C5EFAAB002C8271 /* GWPDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPDisplayViewController.m; sourceTree = "<group>"; };
-		4D9BC35B1C5F06CD002C8271 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		4D9BC35C1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GWPExtension.h"; sourceTree = "<group>"; };
-		4D9BC35D1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GWPExtension.m"; sourceTree = "<group>"; };
+		4D9BE73A1C60A88F00291D1D /* GWPDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPDeviceModel.h; sourceTree = "<group>"; };
+		4D9BE73B1C60A88F00291D1D /* GWPDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPDeviceModel.m; sourceTree = "<group>"; };
+		4D9BE73C1C60A88F00291D1D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		4D9BE73D1C60A88F00291D1D /* MBProgressHUD+GWPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GWPExtension.h"; sourceTree = "<group>"; };
+		4D9BE73E1C60A88F00291D1D /* MBProgressHUD+GWPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GWPExtension.m"; sourceTree = "<group>"; };
 		4DA7B6701C5E07A00047AB7E /* GWPCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCommonTool.h; sourceTree = "<group>"; };
 		4DA7B6711C5E07A00047AB7E /* GWPCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPCommonTool.m; sourceTree = "<group>"; };
 		4DA7B6731C5E081E0047AB7E /* GWPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSingleton.h; sourceTree = "<group>"; };
@@ -181,9 +184,6 @@
 			children = (
 				4D9BC35E1C5F06CD002C8271 /* Vendor */,
 				4D7D9EE21C5D017E00D5D683 /* GWPKit */,
-				4D9BC35B1C5F06CD002C8271 /* MBProgressHUD.bundle */,
-				4D9BC35C1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.h */,
-				4D9BC35D1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.m */,
 				4DA7B67D1C5E3D330047AB7E /* GWPGIFViewController.h */,
 				4DA7B67E1C5E3D330047AB7E /* GWPGIFViewController.m */,
 				4D7D9EB21C5D009800D5D683 /* AppDelegate.h */,
@@ -244,6 +244,11 @@
 		4D7D9EE21C5D017E00D5D683 /* GWPKit */ = {
 			isa = PBXGroup;
 			children = (
+				4D9BE73A1C60A88F00291D1D /* GWPDeviceModel.h */,
+				4D9BE73B1C60A88F00291D1D /* GWPDeviceModel.m */,
+				4D9BE73C1C60A88F00291D1D /* MBProgressHUD.bundle */,
+				4D9BE73D1C60A88F00291D1D /* MBProgressHUD+GWPExtension.h */,
+				4D9BE73E1C60A88F00291D1D /* MBProgressHUD+GWPExtension.m */,
 				4DA7B6731C5E081E0047AB7E /* GWPSingleton.h */,
 				4D7D9F031C5D07FA00D5D683 /* GWPSliderController.h */,
 				4D7D9F041C5D07FA00D5D683 /* GWPSliderController.m */,
@@ -407,13 +412,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D362F6D1C605E72000F323B /* GWPShowBadgeViewController.xib in Resources */,
+				4D9BE7401C60A88F00291D1D /* MBProgressHUD.bundle in Resources */,
 				4D7D9EBF1C5D009800D5D683 /* LaunchScreen.storyboard in Resources */,
 				4DA7B6761C5E3AD40047AB7E /* reSubmit.gif in Resources */,
 				4D7D9F291C5D0B2000D5D683 /* GWPCenterViewController.xib in Resources */,
 				4D7D9F1F1C5D0AF400D5D683 /* GWPLeftViewController.xib in Resources */,
 				4D7D9F241C5D0B0200D5D683 /* GWPRightViewController.xib in Resources */,
 				4D7D9EBC1C5D009800D5D683 /* Assets.xcassets in Resources */,
-				4D9BC36C1C5F06CD002C8271 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +493,6 @@
 			files = (
 				4D362F6C1C605E72000F323B /* GWPShowBadgeViewController.m in Sources */,
 				4D7D9F051C5D07FA00D5D683 /* GWPSliderController.m in Sources */,
-				4D9BC36D1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.m in Sources */,
 				4D7D9F281C5D0B2000D5D683 /* GWPCenterViewController.m in Sources */,
 				4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */,
 				4DA7B67F1C5E3D330047AB7E /* GWPGIFViewController.m in Sources */,
@@ -503,8 +507,10 @@
 				4D7D9F001C5D078500D5D683 /* GWPGIFView.m in Sources */,
 				4D7D9F231C5D0B0200D5D683 /* GWPRightViewController.m in Sources */,
 				4D9BC3521C5EEB87002C8271 /* GWPRightImageButton.m in Sources */,
+				4D9BE7411C60A88F00291D1D /* MBProgressHUD+GWPExtension.m in Sources */,
 				4D7D9EB11C5D009800D5D683 /* main.m in Sources */,
 				4D98EDF91C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.m in Sources */,
+				4D9BE73F1C60A88F00291D1D /* GWPDeviceModel.m in Sources */,
 				4D362FB81C60738E000F323B /* UITabBarItem+GWPBadge.m in Sources */,
 				4D7D9F2C1C5D0BCF00D5D683 /* GWPBaseCellModel.m in Sources */,
 				4D362F761C60615B000F323B /* UIBarButtonItem+GWPBadge.m in Sources */,
@@ -641,6 +647,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -654,6 +661,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ganwenpeng.GWPKitDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";

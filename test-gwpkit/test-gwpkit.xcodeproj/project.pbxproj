@@ -15,17 +15,7 @@
 		4D362FFB1C6078E1000F323B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D362FF91C6078E1000F323B /* LaunchScreen.storyboard */; };
 		4D3630061C6078E1000F323B /* test_gwpkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630051C6078E1000F323B /* test_gwpkitTests.m */; };
 		4D3630111C6078E1000F323B /* test_gwpkitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630101C6078E1000F323B /* test_gwpkitUITests.m */; };
-		4D3630AB1C6079BA000F323B /* GWPBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630921C6079BA000F323B /* GWPBaseCellModel.m */; };
-		4D3630AC1C6079BA000F323B /* GWPGIFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630941C6079BA000F323B /* GWPGIFView.m */; };
-		4D3630AD1C6079BA000F323B /* GWPNoHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630991C6079BA000F323B /* GWPNoHighlightButton.m */; };
-		4D3630AE1C6079BA000F323B /* GWPRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36309B1C6079BA000F323B /* GWPRightImageButton.m */; };
-		4D3630AF1C6079BA000F323B /* GWPSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36309E1C6079BA000F323B /* GWPSliderController.m */; };
-		4D3630B01C6079BA000F323B /* GWPUnderlineSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630A01C6079BA000F323B /* GWPUnderlineSegmentedControl.m */; };
-		4D3630B11C6079BA000F323B /* UIBarButtonItem+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630A21C6079BA000F323B /* UIBarButtonItem+GWPBadge.m */; };
-		4D3630B21C6079BA000F323B /* UIImage+GWPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630A41C6079BA000F323B /* UIImage+GWPKit.m */; };
-		4D3630B31C6079BA000F323B /* UITabBarItem+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630A61C6079BA000F323B /* UITabBarItem+GWPBadge.m */; };
-		4D3630B41C6079BA000F323B /* UIView+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630A81C6079BA000F323B /* UIView+GWPBadge.m */; };
-		4D3630B51C6079BA000F323B /* UIView+GWPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3630AA1C6079BA000F323B /* UIView+GWPKit.m */; };
+		DD62FFD3DA3356AA5EAD0FF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A0722B4F393A9A5CBA1103 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,32 +52,9 @@
 		4D36300C1C6078E1000F323B /* test-gwpkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-gwpkitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3630101C6078E1000F323B /* test_gwpkitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_gwpkitUITests.m; sourceTree = "<group>"; };
 		4D3630121C6078E1000F323B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D3630911C6079BA000F323B /* GWPBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPBaseCellModel.h; sourceTree = "<group>"; };
-		4D3630921C6079BA000F323B /* GWPBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPBaseCellModel.m; sourceTree = "<group>"; };
-		4D3630931C6079BA000F323B /* GWPGIFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPGIFView.h; sourceTree = "<group>"; };
-		4D3630941C6079BA000F323B /* GWPGIFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPGIFView.m; sourceTree = "<group>"; };
-		4D3630951C6079BA000F323B /* GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPKit.h; sourceTree = "<group>"; };
-		4D3630961C6079BA000F323B /* GWPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPLog.h; sourceTree = "<group>"; };
-		4D3630971C6079BA000F323B /* GWPMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPMacro.h; sourceTree = "<group>"; };
-		4D3630981C6079BA000F323B /* GWPNoHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPNoHighlightButton.h; sourceTree = "<group>"; };
-		4D3630991C6079BA000F323B /* GWPNoHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPNoHighlightButton.m; sourceTree = "<group>"; };
-		4D36309A1C6079BA000F323B /* GWPRightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPRightImageButton.h; sourceTree = "<group>"; };
-		4D36309B1C6079BA000F323B /* GWPRightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPRightImageButton.m; sourceTree = "<group>"; };
-		4D36309C1C6079BA000F323B /* GWPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSingleton.h; sourceTree = "<group>"; };
-		4D36309D1C6079BA000F323B /* GWPSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSliderController.h; sourceTree = "<group>"; };
-		4D36309E1C6079BA000F323B /* GWPSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPSliderController.m; sourceTree = "<group>"; };
-		4D36309F1C6079BA000F323B /* GWPUnderlineSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPUnderlineSegmentedControl.h; sourceTree = "<group>"; };
-		4D3630A01C6079BA000F323B /* GWPUnderlineSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPUnderlineSegmentedControl.m; sourceTree = "<group>"; };
-		4D3630A11C6079BA000F323B /* UIBarButtonItem+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GWPBadge.h"; sourceTree = "<group>"; };
-		4D3630A21C6079BA000F323B /* UIBarButtonItem+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GWPBadge.m"; sourceTree = "<group>"; };
-		4D3630A31C6079BA000F323B /* UIImage+GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GWPKit.h"; sourceTree = "<group>"; };
-		4D3630A41C6079BA000F323B /* UIImage+GWPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GWPKit.m"; sourceTree = "<group>"; };
-		4D3630A51C6079BA000F323B /* UITabBarItem+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+GWPBadge.h"; sourceTree = "<group>"; };
-		4D3630A61C6079BA000F323B /* UITabBarItem+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+GWPBadge.m"; sourceTree = "<group>"; };
-		4D3630A71C6079BA000F323B /* UIView+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GWPBadge.h"; sourceTree = "<group>"; };
-		4D3630A81C6079BA000F323B /* UIView+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GWPBadge.m"; sourceTree = "<group>"; };
-		4D3630A91C6079BA000F323B /* UIView+GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GWPKit.h"; sourceTree = "<group>"; };
-		4D3630AA1C6079BA000F323B /* UIView+GWPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GWPKit.m"; sourceTree = "<group>"; };
+		5B8A8F59C77C82282958D38E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		75A0722B4F393A9A5CBA1103 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AAB2DE9DC4C8FBA0AA87AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD62FFD3DA3356AA5EAD0FF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +90,8 @@
 				4D3630041C6078E1000F323B /* test-gwpkitTests */,
 				4D36300F1C6078E1000F323B /* test-gwpkitUITests */,
 				4D362FE91C6078E1000F323B /* Products */,
+				C857E36DB610E0D282F3E956 /* Pods */,
+				CC3E39C12EC8DFDFC40BFF4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,7 +108,6 @@
 		4D362FEA1C6078E1000F323B /* test-gwpkit */ = {
 			isa = PBXGroup;
 			children = (
-				4D3630901C6079BA000F323B /* GWPKit */,
 				4D362FEE1C6078E1000F323B /* AppDelegate.h */,
 				4D362FEF1C6078E1000F323B /* AppDelegate.m */,
 				4D362FF11C6078E1000F323B /* ViewController.h */,
@@ -178,37 +147,21 @@
 			path = "test-gwpkitUITests";
 			sourceTree = "<group>";
 		};
-		4D3630901C6079BA000F323B /* GWPKit */ = {
+		C857E36DB610E0D282F3E956 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D3630911C6079BA000F323B /* GWPBaseCellModel.h */,
-				4D3630921C6079BA000F323B /* GWPBaseCellModel.m */,
-				4D3630931C6079BA000F323B /* GWPGIFView.h */,
-				4D3630941C6079BA000F323B /* GWPGIFView.m */,
-				4D3630951C6079BA000F323B /* GWPKit.h */,
-				4D3630961C6079BA000F323B /* GWPLog.h */,
-				4D3630971C6079BA000F323B /* GWPMacro.h */,
-				4D3630981C6079BA000F323B /* GWPNoHighlightButton.h */,
-				4D3630991C6079BA000F323B /* GWPNoHighlightButton.m */,
-				4D36309A1C6079BA000F323B /* GWPRightImageButton.h */,
-				4D36309B1C6079BA000F323B /* GWPRightImageButton.m */,
-				4D36309C1C6079BA000F323B /* GWPSingleton.h */,
-				4D36309D1C6079BA000F323B /* GWPSliderController.h */,
-				4D36309E1C6079BA000F323B /* GWPSliderController.m */,
-				4D36309F1C6079BA000F323B /* GWPUnderlineSegmentedControl.h */,
-				4D3630A01C6079BA000F323B /* GWPUnderlineSegmentedControl.m */,
-				4D3630A11C6079BA000F323B /* UIBarButtonItem+GWPBadge.h */,
-				4D3630A21C6079BA000F323B /* UIBarButtonItem+GWPBadge.m */,
-				4D3630A31C6079BA000F323B /* UIImage+GWPKit.h */,
-				4D3630A41C6079BA000F323B /* UIImage+GWPKit.m */,
-				4D3630A51C6079BA000F323B /* UITabBarItem+GWPBadge.h */,
-				4D3630A61C6079BA000F323B /* UITabBarItem+GWPBadge.m */,
-				4D3630A71C6079BA000F323B /* UIView+GWPBadge.h */,
-				4D3630A81C6079BA000F323B /* UIView+GWPBadge.m */,
-				4D3630A91C6079BA000F323B /* UIView+GWPKit.h */,
-				4D3630AA1C6079BA000F323B /* UIView+GWPKit.m */,
+				A4AAB2DE9DC4C8FBA0AA87AF /* Pods.debug.xcconfig */,
+				5B8A8F59C77C82282958D38E /* Pods.release.xcconfig */,
 			);
-			path = GWPKit;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC3E39C12EC8DFDFC40BFF4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A0722B4F393A9A5CBA1103 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D3630151C6078E1000F323B /* Build configuration list for PBXNativeTarget "test-gwpkit" */;
 			buildPhases = (
+				B640297027AA49855B388979 /* Check Pods Manifest.lock */,
 				4D362FE41C6078E1000F323B /* Sources */,
 				4D362FE51C6078E1000F323B /* Frameworks */,
 				4D362FE61C6078E1000F323B /* Resources */,
+				C3B662A35D49FE02A8A6183B /* Embed Pods Frameworks */,
+				B8E8F3A92B4D8FE09987E68E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,25 +292,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B640297027AA49855B388979 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E8F3A92B4D8FE09987E68E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B662A35D49FE02A8A6183B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D362FE41C6078E1000F323B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3630B41C6079BA000F323B /* UIView+GWPBadge.m in Sources */,
 				4D362FF31C6078E1000F323B /* ViewController.m in Sources */,
 				4D362FF01C6078E1000F323B /* AppDelegate.m in Sources */,
-				4D3630AD1C6079BA000F323B /* GWPNoHighlightButton.m in Sources */,
-				4D3630B11C6079BA000F323B /* UIBarButtonItem+GWPBadge.m in Sources */,
-				4D3630AC1C6079BA000F323B /* GWPGIFView.m in Sources */,
-				4D3630B51C6079BA000F323B /* UIView+GWPKit.m in Sources */,
-				4D3630B21C6079BA000F323B /* UIImage+GWPKit.m in Sources */,
 				4D362FED1C6078E1000F323B /* main.m in Sources */,
-				4D3630AF1C6079BA000F323B /* GWPSliderController.m in Sources */,
-				4D3630AE1C6079BA000F323B /* GWPRightImageButton.m in Sources */,
-				4D3630B01C6079BA000F323B /* GWPUnderlineSegmentedControl.m in Sources */,
-				4D3630AB1C6079BA000F323B /* GWPBaseCellModel.m in Sources */,
-				4D3630B31C6079BA000F323B /* UITabBarItem+GWPBadge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +484,7 @@
 		};
 		4D3630161C6078E1000F323B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AAB2DE9DC4C8FBA0AA87AF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "test-gwpkit/Info.plist";
@@ -502,6 +496,7 @@
 		};
 		4D3630171C6078E1000F323B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8A8F59C77C82282958D38E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "test-gwpkit/Info.plist";
@@ -578,6 +573,7 @@
 				4D3630171C6078E1000F323B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D3630181C6078E1000F323B /* Build configuration list for PBXNativeTarget "test-gwpkitTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +582,7 @@
 				4D36301A1C6078E1000F323B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D36301B1C6078E1000F323B /* Build configuration list for PBXNativeTarget "test-gwpkitUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +591,7 @@
 				4D36301D1C6078E1000F323B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
