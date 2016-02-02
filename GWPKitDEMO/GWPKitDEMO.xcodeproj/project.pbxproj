@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D362F6C1C605E72000F323B /* GWPShowBadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362F6A1C605E72000F323B /* GWPShowBadgeViewController.m */; };
+		4D362F6D1C605E72000F323B /* GWPShowBadgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D362F6B1C605E72000F323B /* GWPShowBadgeViewController.xib */; };
+		4D362F731C60612C000F323B /* UIView+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362F721C60612C000F323B /* UIView+GWPBadge.m */; };
+		4D362F761C60615B000F323B /* UIBarButtonItem+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362F751C60615B000F323B /* UIBarButtonItem+GWPBadge.m */; };
+		4D362FB81C60738E000F323B /* UITabBarItem+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362FB71C60738E000F323B /* UITabBarItem+GWPBadge.m */; };
 		4D7D9EB11C5D009800D5D683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EB01C5D009800D5D683 /* main.m */; };
 		4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EB31C5D009800D5D683 /* AppDelegate.m */; };
 		4D7D9EBC1C5D009800D5D683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9EBB1C5D009800D5D683 /* Assets.xcassets */; };
@@ -57,6 +62,15 @@
 /* Begin PBXFileReference section */
 		2D9CEC2B72753BAB622EE035 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		39ADBC41F584809103DF5641 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D362F691C605E72000F323B /* GWPShowBadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPShowBadgeViewController.h; sourceTree = "<group>"; };
+		4D362F6A1C605E72000F323B /* GWPShowBadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPShowBadgeViewController.m; sourceTree = "<group>"; };
+		4D362F6B1C605E72000F323B /* GWPShowBadgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPShowBadgeViewController.xib; sourceTree = "<group>"; };
+		4D362F711C60612C000F323B /* UIView+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GWPBadge.h"; sourceTree = "<group>"; };
+		4D362F721C60612C000F323B /* UIView+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GWPBadge.m"; sourceTree = "<group>"; };
+		4D362F741C60615B000F323B /* UIBarButtonItem+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GWPBadge.h"; sourceTree = "<group>"; };
+		4D362F751C60615B000F323B /* UIBarButtonItem+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GWPBadge.m"; sourceTree = "<group>"; };
+		4D362FB61C60738E000F323B /* UITabBarItem+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+GWPBadge.h"; sourceTree = "<group>"; };
+		4D362FB71C60738E000F323B /* UITabBarItem+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+GWPBadge.m"; sourceTree = "<group>"; };
 		4D7D9EAC1C5D009800D5D683 /* GWPKitDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWPKitDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7D9EB01C5D009800D5D683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D7D9EB21C5D009800D5D683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +204,9 @@
 				4DA7B6711C5E07A00047AB7E /* GWPCommonTool.m */,
 				4D9BC3581C5EFAAB002C8271 /* GWPDisplayViewController.h */,
 				4D9BC3591C5EFAAB002C8271 /* GWPDisplayViewController.m */,
+				4D362F691C605E72000F323B /* GWPShowBadgeViewController.h */,
+				4D362F6A1C605E72000F323B /* GWPShowBadgeViewController.m */,
+				4D362F6B1C605E72000F323B /* GWPShowBadgeViewController.xib */,
 				4D7D9EAF1C5D009800D5D683 /* Supporting Files */,
 			);
 			path = GWPKitDEMO;
@@ -249,6 +266,12 @@
 				4DF90C4E1C5F0FDC00285227 /* GWPMacro.h */,
 				4D98EDF71C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.h */,
 				4D98EDF81C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.m */,
+				4D362F711C60612C000F323B /* UIView+GWPBadge.h */,
+				4D362F721C60612C000F323B /* UIView+GWPBadge.m */,
+				4D362F741C60615B000F323B /* UIBarButtonItem+GWPBadge.h */,
+				4D362F751C60615B000F323B /* UIBarButtonItem+GWPBadge.m */,
+				4D362FB61C60738E000F323B /* UITabBarItem+GWPBadge.h */,
+				4D362FB71C60738E000F323B /* UITabBarItem+GWPBadge.m */,
 			);
 			name = GWPKit;
 			path = ../../GWPKit;
@@ -385,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D362F6D1C605E72000F323B /* GWPShowBadgeViewController.xib in Resources */,
 				4D7D9EBF1C5D009800D5D683 /* LaunchScreen.storyboard in Resources */,
 				4DA7B6761C5E3AD40047AB7E /* reSubmit.gif in Resources */,
 				4D7D9F291C5D0B2000D5D683 /* GWPCenterViewController.xib in Resources */,
@@ -464,12 +488,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D362F6C1C605E72000F323B /* GWPShowBadgeViewController.m in Sources */,
 				4D7D9F051C5D07FA00D5D683 /* GWPSliderController.m in Sources */,
 				4D9BC36D1C5F06CD002C8271 /* MBProgressHUD+GWPExtension.m in Sources */,
 				4D7D9F281C5D0B2000D5D683 /* GWPCenterViewController.m in Sources */,
 				4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */,
 				4DA7B67F1C5E3D330047AB7E /* GWPGIFViewController.m in Sources */,
 				4D9BC35A1C5EFAAB002C8271 /* GWPDisplayViewController.m in Sources */,
+				4D362F731C60612C000F323B /* UIView+GWPBadge.m in Sources */,
 				4D7D9F1A1C5D0AE400D5D683 /* GWPHomeViewController.m in Sources */,
 				4D7D9F1E1C5D0AF400D5D683 /* GWPLeftViewController.m in Sources */,
 				4D9BC34F1C5EEA21002C8271 /* GWPNoHighlightButton.m in Sources */,
@@ -481,7 +507,9 @@
 				4D9BC3521C5EEB87002C8271 /* GWPRightImageButton.m in Sources */,
 				4D7D9EB11C5D009800D5D683 /* main.m in Sources */,
 				4D98EDF91C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.m in Sources */,
+				4D362FB81C60738E000F323B /* UITabBarItem+GWPBadge.m in Sources */,
 				4D7D9F2C1C5D0BCF00D5D683 /* GWPBaseCellModel.m in Sources */,
+				4D362F761C60615B000F323B /* UIBarButtonItem+GWPBadge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

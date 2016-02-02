@@ -13,6 +13,7 @@
 #import "GWPGIFViewController.h"
 #import "GWPDisplayViewController.h"
 #import "ReactiveCocoa.h"
+#import "GWPShowBadgeViewController.h"
 
 @interface GWPHomeViewController ()
 @property (nonatomic, strong) NSArray<GWPBaseCellModel *> *cellModels;
@@ -48,7 +49,11 @@
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:gif];
             [weakSelf presentViewController:nav animated:YES completion:nil];
         }];
-        GWPBaseCellModel *badge = [GWPBaseCellModel modelWithImage:nil title:@"Badge" subTitle:nil targetClass:nil clickHandler:nil];
+        GWPBaseCellModel *badge = [GWPBaseCellModel modelWithImage:nil title:@"Badge" subTitle:nil targetClass:nil clickHandler:^{
+            GWPShowBadgeViewController *vc = [[GWPShowBadgeViewController alloc] init];
+            
+            [weakSelf presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:nil];
+        }];
         GWPBaseCellModel *tabbar = [GWPBaseCellModel modelWithImage:nil title:@"Tab with underline" subTitle:nil targetClass:nil clickHandler:^{
             GWPDisplayViewController *vc = [[GWPDisplayViewController alloc] init];
             vc.view.backgroundColor = [UIColor whiteColor];
