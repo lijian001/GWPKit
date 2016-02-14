@@ -37,5 +37,5 @@
 
 ## 使用(Install)
 引入方式有两种：
-* 安装有Cocoapods的朋友可以直接  pod 'GWPKit'
-* 没有安装过Cocoapods的朋友可以download下整个zip文件，解压后里面有一个GWPKit文件夹，整个导入即可。但是GWPKit有对MBProgressHUD的封装，所以对他有封装，如果项目中没有引入MBProgressHUD可能会报错。
+* 安装有CocoaPods的朋友可以直接  pod 'GWPKit'
+* 没有安装过CocoaPods的朋友可以download下整个zip文件，解压后里面有一个GWPKit文件夹，整个导入即可。但是GWPKit有对MBProgressHUD的封装，所以对他有封装，如果项目中没有引入MBProgressHUD可能会报错。
