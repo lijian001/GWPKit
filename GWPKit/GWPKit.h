@@ -53,5 +53,14 @@
 /** 判断设备类型 */
 #import "GWPDeviceModel.h"
 
+/** 图片缓存 */
+#import "UIButton+GWPWebCache.h"
+#import "UIImageView+GWPWebCache.h"
+
+/** 常用正则匹配 */
+#import "NSString+GWPRegExp.h"
+
+/** 常用加密算法 */
+#import "NSString+GWPEncrypt.h"
 
 #endif /* GWPKit_h */

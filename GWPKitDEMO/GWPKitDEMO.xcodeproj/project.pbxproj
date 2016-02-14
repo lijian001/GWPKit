@@ -12,6 +12,10 @@
 		4D362F731C60612C000F323B /* UIView+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362F721C60612C000F323B /* UIView+GWPBadge.m */; };
 		4D362F761C60615B000F323B /* UIBarButtonItem+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362F751C60615B000F323B /* UIBarButtonItem+GWPBadge.m */; };
 		4D362FB81C60738E000F323B /* UITabBarItem+GWPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D362FB71C60738E000F323B /* UITabBarItem+GWPBadge.m */; };
+		4D696A901C702C8200A0D7FD /* UIButton+GWPWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D696A8F1C702C8200A0D7FD /* UIButton+GWPWebCache.m */; };
+		4D696A931C702D2100A0D7FD /* UIImageView+GWPWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D696A921C702D2100A0D7FD /* UIImageView+GWPWebCache.m */; };
+		4D696A9B1C702E2900A0D7FD /* NSString+GWPEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D696A981C702E2900A0D7FD /* NSString+GWPEncrypt.m */; };
+		4D696A9C1C702E2900A0D7FD /* NSString+GWPRegExp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D696A9A1C702E2900A0D7FD /* NSString+GWPRegExp.m */; };
 		4D7D9EB11C5D009800D5D683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EB01C5D009800D5D683 /* main.m */; };
 		4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D9EB31C5D009800D5D683 /* AppDelegate.m */; };
 		4D7D9EBC1C5D009800D5D683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D9EBB1C5D009800D5D683 /* Assets.xcassets */; };
@@ -72,20 +76,28 @@
 		4D362F751C60615B000F323B /* UIBarButtonItem+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GWPBadge.m"; sourceTree = "<group>"; };
 		4D362FB61C60738E000F323B /* UITabBarItem+GWPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+GWPBadge.h"; sourceTree = "<group>"; };
 		4D362FB71C60738E000F323B /* UITabBarItem+GWPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+GWPBadge.m"; sourceTree = "<group>"; };
+		4D696A8E1C702C8200A0D7FD /* UIButton+GWPWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GWPWebCache.h"; sourceTree = "<group>"; };
+		4D696A8F1C702C8200A0D7FD /* UIButton+GWPWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GWPWebCache.m"; sourceTree = "<group>"; };
+		4D696A911C702D2100A0D7FD /* UIImageView+GWPWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GWPWebCache.h"; sourceTree = "<group>"; };
+		4D696A921C702D2100A0D7FD /* UIImageView+GWPWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GWPWebCache.m"; sourceTree = "<group>"; };
+		4D696A971C702E2900A0D7FD /* NSString+GWPEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GWPEncrypt.h"; sourceTree = "<group>"; };
+		4D696A981C702E2900A0D7FD /* NSString+GWPEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GWPEncrypt.m"; sourceTree = "<group>"; };
+		4D696A991C702E2900A0D7FD /* NSString+GWPRegExp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GWPRegExp.h"; sourceTree = "<group>"; };
+		4D696A9A1C702E2900A0D7FD /* NSString+GWPRegExp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GWPRegExp.m"; sourceTree = "<group>"; };
 		4D7D9EAC1C5D009800D5D683 /* GWPKitDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWPKitDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7D9EB01C5D009800D5D683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D7D9EB21C5D009800D5D683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4D7D9EB31C5D009800D5D683 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D7D9EB21C5D009800D5D683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D7D9EB31C5D009800D5D683 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D7D9EBB1C5D009800D5D683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7D9EBE1C5D009800D5D683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7D9EC01C5D009800D5D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7D9EC51C5D009800D5D683 /* GWPKitDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWPKitDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D7D9EC91C5D009800D5D683 /* GWPKitDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWPKitDEMOTests.m; sourceTree = "<group>"; };
+		4D7D9EC91C5D009800D5D683 /* GWPKitDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPKitDEMOTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D7D9ECB1C5D009800D5D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7D9ED01C5D009800D5D683 /* GWPKitDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWPKitDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D7D9ED41C5D009800D5D683 /* GWPKitDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWPKitDEMOUITests.m; sourceTree = "<group>"; };
+		4D7D9ED41C5D009800D5D683 /* GWPKitDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPKitDEMOUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D7D9ED61C5D009800D5D683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D7D9EF41C5D03D600D5D683 /* GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPKit.h; sourceTree = "<group>"; };
+		4D7D9EF41C5D03D600D5D683 /* GWPKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPKit.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		4D7D9EF91C5D078500D5D683 /* GWPGIFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPGIFView.h; sourceTree = "<group>"; };
 		4D7D9EFA1C5D078500D5D683 /* GWPGIFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPGIFView.m; sourceTree = "<group>"; };
 		4D7D9EFB1C5D078500D5D683 /* GWPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPLog.h; sourceTree = "<group>"; };
@@ -95,38 +107,38 @@
 		4D7D9EFF1C5D078500D5D683 /* UIView+GWPKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GWPKit.m"; sourceTree = "<group>"; };
 		4D7D9F031C5D07FA00D5D683 /* GWPSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSliderController.h; sourceTree = "<group>"; };
 		4D7D9F041C5D07FA00D5D683 /* GWPSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPSliderController.m; sourceTree = "<group>"; };
-		4D7D9F181C5D0AE400D5D683 /* GWPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPHomeViewController.h; sourceTree = "<group>"; };
-		4D7D9F191C5D0AE400D5D683 /* GWPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPHomeViewController.m; sourceTree = "<group>"; };
+		4D7D9F181C5D0AE400D5D683 /* GWPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPHomeViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D7D9F191C5D0AE400D5D683 /* GWPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPHomeViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D7D9F1B1C5D0AF400D5D683 /* GWPLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPLeftViewController.h; sourceTree = "<group>"; };
 		4D7D9F1C1C5D0AF400D5D683 /* GWPLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPLeftViewController.m; sourceTree = "<group>"; };
 		4D7D9F1D1C5D0AF400D5D683 /* GWPLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPLeftViewController.xib; sourceTree = "<group>"; };
 		4D7D9F201C5D0B0200D5D683 /* GWPRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPRightViewController.h; sourceTree = "<group>"; };
 		4D7D9F211C5D0B0200D5D683 /* GWPRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPRightViewController.m; sourceTree = "<group>"; };
 		4D7D9F221C5D0B0200D5D683 /* GWPRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPRightViewController.xib; sourceTree = "<group>"; };
-		4D7D9F251C5D0B2000D5D683 /* GWPCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCenterViewController.h; sourceTree = "<group>"; };
-		4D7D9F261C5D0B2000D5D683 /* GWPCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPCenterViewController.m; sourceTree = "<group>"; };
+		4D7D9F251C5D0B2000D5D683 /* GWPCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPCenterViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D7D9F261C5D0B2000D5D683 /* GWPCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPCenterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D7D9F271C5D0B2000D5D683 /* GWPCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWPCenterViewController.xib; sourceTree = "<group>"; };
-		4D7D9F2A1C5D0BCF00D5D683 /* GWPBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPBaseCellModel.h; sourceTree = "<group>"; };
-		4D7D9F2B1C5D0BCF00D5D683 /* GWPBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPBaseCellModel.m; sourceTree = "<group>"; };
+		4D7D9F2A1C5D0BCF00D5D683 /* GWPBaseCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPBaseCellModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D7D9F2B1C5D0BCF00D5D683 /* GWPBaseCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPBaseCellModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D98EDF71C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPUnderlineSegmentedControl.h; sourceTree = "<group>"; };
 		4D98EDF81C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPUnderlineSegmentedControl.m; sourceTree = "<group>"; };
 		4D9BC34D1C5EEA21002C8271 /* GWPNoHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPNoHighlightButton.h; sourceTree = "<group>"; };
 		4D9BC34E1C5EEA21002C8271 /* GWPNoHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPNoHighlightButton.m; sourceTree = "<group>"; };
 		4D9BC3501C5EEB87002C8271 /* GWPRightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPRightImageButton.h; sourceTree = "<group>"; };
 		4D9BC3511C5EEB87002C8271 /* GWPRightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPRightImageButton.m; sourceTree = "<group>"; };
-		4D9BC3581C5EFAAB002C8271 /* GWPDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPDisplayViewController.h; sourceTree = "<group>"; };
-		4D9BC3591C5EFAAB002C8271 /* GWPDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPDisplayViewController.m; sourceTree = "<group>"; };
+		4D9BC3581C5EFAAB002C8271 /* GWPDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPDisplayViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4D9BC3591C5EFAAB002C8271 /* GWPDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPDisplayViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D9BE73A1C60A88F00291D1D /* GWPDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPDeviceModel.h; sourceTree = "<group>"; };
 		4D9BE73B1C60A88F00291D1D /* GWPDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPDeviceModel.m; sourceTree = "<group>"; };
 		4D9BE73C1C60A88F00291D1D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		4D9BE73D1C60A88F00291D1D /* MBProgressHUD+GWPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GWPExtension.h"; sourceTree = "<group>"; };
 		4D9BE73E1C60A88F00291D1D /* MBProgressHUD+GWPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GWPExtension.m"; sourceTree = "<group>"; };
-		4DA7B6701C5E07A00047AB7E /* GWPCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPCommonTool.h; sourceTree = "<group>"; };
-		4DA7B6711C5E07A00047AB7E /* GWPCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPCommonTool.m; sourceTree = "<group>"; };
+		4DA7B6701C5E07A00047AB7E /* GWPCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPCommonTool.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4DA7B6711C5E07A00047AB7E /* GWPCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPCommonTool.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4DA7B6731C5E081E0047AB7E /* GWPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPSingleton.h; sourceTree = "<group>"; };
 		4DA7B6751C5E3AD40047AB7E /* reSubmit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = reSubmit.gif; sourceTree = "<group>"; };
-		4DA7B67D1C5E3D330047AB7E /* GWPGIFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWPGIFViewController.h; sourceTree = "<group>"; };
-		4DA7B67E1C5E3D330047AB7E /* GWPGIFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWPGIFViewController.m; sourceTree = "<group>"; };
+		4DA7B67D1C5E3D330047AB7E /* GWPGIFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GWPGIFViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4DA7B67E1C5E3D330047AB7E /* GWPGIFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GWPGIFViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4DF90C4E1C5F0FDC00285227 /* GWPMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWPMacro.h; sourceTree = "<group>"; };
 		E45982F75B0C3767EC748703 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,6 +256,10 @@
 		4D7D9EE21C5D017E00D5D683 /* GWPKit */ = {
 			isa = PBXGroup;
 			children = (
+				4D696A971C702E2900A0D7FD /* NSString+GWPEncrypt.h */,
+				4D696A981C702E2900A0D7FD /* NSString+GWPEncrypt.m */,
+				4D696A991C702E2900A0D7FD /* NSString+GWPRegExp.h */,
+				4D696A9A1C702E2900A0D7FD /* NSString+GWPRegExp.m */,
 				4D9BE73A1C60A88F00291D1D /* GWPDeviceModel.h */,
 				4D9BE73B1C60A88F00291D1D /* GWPDeviceModel.m */,
 				4D9BE73C1C60A88F00291D1D /* MBProgressHUD.bundle */,
@@ -275,6 +291,10 @@
 				4D362F751C60615B000F323B /* UIBarButtonItem+GWPBadge.m */,
 				4D362FB61C60738E000F323B /* UITabBarItem+GWPBadge.h */,
 				4D362FB71C60738E000F323B /* UITabBarItem+GWPBadge.m */,
+				4D696A8E1C702C8200A0D7FD /* UIButton+GWPWebCache.h */,
+				4D696A8F1C702C8200A0D7FD /* UIButton+GWPWebCache.m */,
+				4D696A911C702D2100A0D7FD /* UIImageView+GWPWebCache.h */,
+				4D696A921C702D2100A0D7FD /* UIImageView+GWPWebCache.m */,
 			);
 			name = GWPKit;
 			path = ../../GWPKit;
@@ -497,18 +517,22 @@
 				4D7D9EB41C5D009800D5D683 /* AppDelegate.m in Sources */,
 				4DA7B67F1C5E3D330047AB7E /* GWPGIFViewController.m in Sources */,
 				4D9BC35A1C5EFAAB002C8271 /* GWPDisplayViewController.m in Sources */,
+				4D696A901C702C8200A0D7FD /* UIButton+GWPWebCache.m in Sources */,
 				4D362F731C60612C000F323B /* UIView+GWPBadge.m in Sources */,
 				4D7D9F1A1C5D0AE400D5D683 /* GWPHomeViewController.m in Sources */,
 				4D7D9F1E1C5D0AF400D5D683 /* GWPLeftViewController.m in Sources */,
 				4D9BC34F1C5EEA21002C8271 /* GWPNoHighlightButton.m in Sources */,
 				4D7D9F021C5D078500D5D683 /* UIView+GWPKit.m in Sources */,
+				4D696A9C1C702E2900A0D7FD /* NSString+GWPRegExp.m in Sources */,
 				4D7D9F011C5D078500D5D683 /* UIImage+GWPKit.m in Sources */,
 				4DA7B6721C5E07A00047AB7E /* GWPCommonTool.m in Sources */,
 				4D7D9F001C5D078500D5D683 /* GWPGIFView.m in Sources */,
 				4D7D9F231C5D0B0200D5D683 /* GWPRightViewController.m in Sources */,
+				4D696A9B1C702E2900A0D7FD /* NSString+GWPEncrypt.m in Sources */,
 				4D9BC3521C5EEB87002C8271 /* GWPRightImageButton.m in Sources */,
 				4D9BE7411C60A88F00291D1D /* MBProgressHUD+GWPExtension.m in Sources */,
 				4D7D9EB11C5D009800D5D683 /* main.m in Sources */,
+				4D696A931C702D2100A0D7FD /* UIImageView+GWPWebCache.m in Sources */,
 				4D98EDF91C5F3BF4006F8AFE /* GWPUnderlineSegmentedControl.m in Sources */,
 				4D9BE73F1C60A88F00291D1D /* GWPDeviceModel.m in Sources */,
 				4D362FB81C60738E000F323B /* UITabBarItem+GWPBadge.m in Sources */,

@@ -11,15 +11,20 @@ PODS:
   - ReactiveCocoa/UI (4.0.4-alpha-4):
     - ReactiveCocoa/Core
     - Result (~> 1.0)
-  - Result (1.0.1)
+  - Result (1.0.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
 
 DEPENDENCIES:
   - MBProgressHUD
   - ReactiveCocoa (~> 4.0.4-alpha-4)
+  - SDWebImage
 
 SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   ReactiveCocoa: e459ea92099447802df20c4735e31e8139b06094
-  Result: caef80340451e1f07492fa1e89117f83613bce24
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
 
 COCOAPODS: 0.39.0
