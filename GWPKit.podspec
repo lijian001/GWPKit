@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GWPKit"
-  s.version      = "1.0.3"
+  s.version      = "1.0.5"
   s.summary      = "一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge、判断设备屏幕的种类、封装MBProgressHUD"
 
   # This description is used to generate tags and improve search results.
@@ -134,4 +134,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "MBProgressHUD", "~> 0.9.2"
+  s.dependency "SDWebImage", "3.7.3"
 end
