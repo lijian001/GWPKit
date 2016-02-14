@@ -1,13 +1,14 @@
 //
-//  MBProgressHUD+GWPExtension.h
+//  MBProgressHUD+GWPKit.h
+//  GWPKit
 //
 //  Created by GanWenPeng on 15-4-18.
-//  Copyright (c) 2015年 gwp. All rights reserved.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
 #import "MBProgressHUD.h"
 
-@interface MBProgressHUD (GWPExtension)
+@interface MBProgressHUD (GWPKit)
 + (void)showSuccess:(NSString *)success;
 + (void)showSuccess:(NSString *)success completion:(MBProgressHUDCompletionBlock)completion;
 + (void)showSuccess:(NSString *)success toView:(UIView *)view;

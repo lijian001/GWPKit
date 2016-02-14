@@ -1,9 +1,9 @@
 //
 //  GWPLog.h
-//  EbangService
+//  GWPKit
 //
-//  Created by gwp on 15/7/4.
-//  Copyright (c) 2015年 gwp. All rights reserved.
+//  Created by GanWenPeng on 15/7/4.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
 #ifdef DEBUG

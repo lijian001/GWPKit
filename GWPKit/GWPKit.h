@@ -1,6 +1,6 @@
 //
 //  GWPKit.h
-//  GWPKitDEMO
+//  GWPKit
 //
 //  Created by GanWenPeng on 16/1/30.
 //  Copyright © 2016年 GanWenPeng. All rights reserved.
@@ -48,7 +48,7 @@
 #import "GWPRightImageButton.h"
 
 /** HUD */
-#import "MBProgressHUD+GWPExtension.h"
+#import "MBProgressHUD+GWPKit.h"
 
 /** 判断设备类型 */
 #import "GWPDeviceModel.h"

@@ -1,6 +1,6 @@
 //
 //  GWPDeviceModel.m
-//  EasySchool
+//  GWPKit
 //
 //  Created by GanWenPeng on 15/10/9.
 //  Copyright © 2015年 GanWenPeng. All rights reserved.

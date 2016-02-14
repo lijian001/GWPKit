@@ -1,3 +1,11 @@
+//
+//  GWPSingleton.h
+//  GWPKit
+//
+//  Created by GanWenPeng on 16/1/30.
+//  Copyright © 2016年 GanWenPeng. All rights reserved.
+//
+
 // .h
 #define singleton_interface(class) + (instancetype)shared##class;
 

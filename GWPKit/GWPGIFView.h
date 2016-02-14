@@ -1,9 +1,9 @@
 //
 //  GWPGIFView.h
-//  ToGoMicroDecorate
+//  GWPKit
 //
 //  Created by GanWenPeng on 16/1/20.
-//  Copyright © 2016年 兔狗家装. All rights reserved.
+//  Copyright © 2016年 GanWenPeng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

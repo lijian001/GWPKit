@@ -2,8 +2,8 @@
 //  UIImage+GWPKit.m
 //  GWPKit
 //
-//  Created by gwp on 15-5-13.
-//  Copyright (c) 2015年 gwp. All rights reserved.
+//  Created by GanWenPeng on 15-5-13.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
 #import "UIImage+GWPKit.h"

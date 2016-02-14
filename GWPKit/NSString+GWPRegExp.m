@@ -1,9 +1,9 @@
 //
 //  NSString+GWPRegExp.m
-//  IT程序园
+//  GWPKit
 //
-//  Created by GWP on 15/6/3.
-//  Copyright (c) 2015年 GWP. All rights reserved.
+//  Created by GanWenPeng on 15/6/3.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
 #import "NSString+GWPRegExp.h"

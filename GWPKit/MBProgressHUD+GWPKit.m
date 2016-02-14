@@ -1,14 +1,15 @@
 //
-//  MBProgressHUD+GWPExtension.m
+//  MBProgressHUD+GWPKit.m
+//  GWPKit
 //
 //  Created by GanWenPeng on 15-4-18.
-//  Copyright (c) 2015年 gwp. All rights reserved.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
-#import "MBProgressHUD+GWPExtension.h"
+#import "MBProgressHUD+GWPKit.h"
 #import "GWPKit.h"
 
-@implementation MBProgressHUD (GWPExtension)
+@implementation MBProgressHUD (GWPKit)
 #pragma mark - 执行显示（success、error）
 + (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view completion:(MBProgressHUDCompletionBlock)completion{
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];

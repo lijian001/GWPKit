@@ -1,9 +1,9 @@
 //
 //  UIView+GWPKit.h
-//  ToGoMicroDecorate
+//  GWPKit
 //
-//  Created by gwp on 15-4-17.
-//  Copyright (c) 2015年 gwp. All rights reserved.
+//  Created by GanWenPeng on 15-4-17.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
 

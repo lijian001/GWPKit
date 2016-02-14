@@ -1,6 +1,6 @@
 //
 //  UIImageView+GWPWebCache.m
-//  GWPKitDEMO
+//  GWPKit
 //
 //  Created by GanWenPeng on 16/2/14.
 //  Copyright © 2016年 GanWenPeng. All rights reserved.

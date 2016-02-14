@@ -1,9 +1,9 @@
 //
 //  NSString+GWPEncrypt.h
-//  GWPEncrypt
+//  GWPKit
 //
-//  Created by GWP on 15/6/2.
-//  Copyright (c) 2015年 GWP. All rights reserved.
+//  Created by GanWenPeng on 15/6/2.
+//  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

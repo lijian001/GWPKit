@@ -1,8 +1,8 @@
 //
 //  GWPSliderController.m
-//  GWPExtension
+//  GWPKit
 //
-//  Created by GWP on 15/7/7.
+//  Created by GanWenPeng on 15/7/7.
 //  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 

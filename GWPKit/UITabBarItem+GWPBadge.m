@@ -1,6 +1,6 @@
 //
 //  UITabBarItem+GWPBadge.m
-//  GWPKitDEMO
+//  GWPKit
 //
 //  Created by GanWenPeng on 16/2/2.
 //  Copyright © 2016年 GanWenPeng. All rights reserved.
