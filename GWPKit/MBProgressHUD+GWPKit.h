@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 GanWenPeng. All rights reserved.
 //
 
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface MBProgressHUD (GWPKit)
 + (void)showSuccess:(NSString *)success;
