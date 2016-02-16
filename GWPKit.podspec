@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GWPKit/*.{h,m}"
+  s.source_files  = "GWPKit/*.{h,m,bundle}"
   # s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "GWPKit/*.h"
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resource  = "GWP/MBProgressHUD.bundle"
+  # s.resource  = "GWP/MBProgressHUD.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
