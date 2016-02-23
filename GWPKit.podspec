@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GWPKit"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge、判断设备屏幕的种类、封装MBProgressHUD"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GWPKit/*.{h,m,bundle}"
+  s.source_files  = "GWPKit/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "GWPKit/*.h"
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "GWP/MBProgressHUD.bundle"
+  s.resource  = "GWPKit/MBProgressHUD.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
