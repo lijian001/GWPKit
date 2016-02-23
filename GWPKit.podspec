@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GWPKit"
-  s.version      = "1.1.4"
+  s.version      = "1.1.5"
   s.summary      = "一个简单的组件库，包括GWPSliderViewController、GWPGIFView、GWPLog、GWPBaseCellModel、GWPUnderlineSegmentedControl、GWPBadge、判断设备屏幕的种类、封装MBProgressHUD"
 
   # This description is used to generate tags and improve search results.
