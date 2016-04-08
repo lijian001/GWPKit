@@ -10,14 +10,18 @@
 
 @implementation UIBarButtonItem (GWPBadge)
 
-static UIImageView *_gwp_badge;
+static UIView *_gwp_badge;
 
 - (UIView *)getDisplayView{
     return [self valueForKey:@"_view"];
 }
 
 - (void)showBadgeForRect:(CGRect)rect color:(UIColor *)color{
-    UIImageView *badge = [[UIImageView alloc] init];
+    if (!_gwp_badge) {
+        _gwp_badge = [[UIView alloc] init];
+    }
+    
+    UIView *badge = _gwp_badge;
     badge.layer.cornerRadius = MIN(rect.size.width, rect.size.height)/2;
     badge.clipsToBounds = YES;
     badge.backgroundColor = color;
