@@ -387,6 +387,7 @@
 				TargetAttributes = {
 					4D7D9EAB1C5D009800D5D683 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 733NJM42WJ;
 					};
 					4D7D9EC41C5D009800D5D683 = {
 						CreatedOnToolsVersion = 7.2;
@@ -661,6 +662,7 @@
 			baseConfigurationReference = 2D9CEC2B72753BAB622EE035 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -675,6 +677,7 @@
 			baseConfigurationReference = E45982F75B0C3767EC748703 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = GWPKitDEMO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
